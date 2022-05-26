@@ -1,2 +1,2 @@
 FROM tomcat:8.0.20-jre8
-COPY target/my-app*.war /usr/local/tomcat/webapps/my-app.war
+COPY /var/lib/jenkins/workspace/Demo/target/my-app*.war /usr/local/tomcat/webapps/my-app.war
